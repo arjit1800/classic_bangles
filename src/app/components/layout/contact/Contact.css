@@ -1,0 +1,27 @@
+.contact-wrapper{
+    background: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%) , url('../../../../assets/images/contact.jpg') center no-repeat;
+    background-size: cover;
+    height: 75vh;
+    max-height: 550px;
+}
+
+.contact-wrapper h5{
+    margin: 0;
+    color: var(--color-white);
+}
+
+.contact-wrapper p{
+    margin: 15px 0px;
+    color: var(--color-white);
+}
+
+.contact-wrapper .custom-btn{
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+}
+
+.contact-wrapper .custom-btn:hover{
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}

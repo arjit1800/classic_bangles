@@ -1,0 +1,40 @@
+.review-card{
+    background-color: var(--color-white);
+    border-radius: 10px;
+    padding: 80px 40px;
+}
+
+.review-card p{
+    color: var(--color-primary);
+    text-align: center;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.review-card h5{
+    margin-bottom: 0;
+    margin-top: 30px;
+    color: var(--color-primary);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.review-card .bangle{
+    position: absolute;
+    opacity: 0.1;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+
+.review-card .bangle.top{
+    top: -40px;
+    left: -25px;
+}
+
+.review-card .bangle.bottom{
+    bottom: -15px;
+    right: 0px;
+}
+

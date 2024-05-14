@@ -1,0 +1,167 @@
+@import url(https://db.onlinewebfonts.com/c/7e96eba370659b4e4563309dc4ebb33f?family=Samarkan+Normal+V2);
+
+.header .navbar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0;
+    top: 5%;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.2) !important;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: 0.5s all ease;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .header .navbar .main-logo {
+    font-family: 'Samarkan Normal V2','sans-serif';
+    font-size: 7rem;
+    color: var(--color-white);
+    line-height: 1;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+    text-align: center;
+  }
+  .header .navbar .support-logo-text {
+    font-family: "Manrope", sans-serif;
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    transition: 0.5s all ease;
+  }
+  .header .navbar .show {
+    transition: all 0.5s ease;
+  }
+  .header .navbar .nav-link {
+    padding: 8px 15px !important;
+    color: var(--color-white);
+  }
+  .header .navbar .nav-item {
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+  }
+  .header .navbar .nav-item .navbar.active {
+    color: #F35A38;
+    background: none !important;
+    box-shadow: none !important;
+  }
+  .header .navbar .navbar-toggler{
+    display: none;
+    box-shadow: none;
+    border: none;
+  }
+  .header .navbar .navbar-toggler i {
+    color: var(--color-white);
+  }
+  .header .navbar .navbar-toggler-icon::before {
+    font-size: 32px;
+  }
+  .header .navbar .nav-item:hover .nav-link {
+    color: #fe964d;
+  }
+  .header .navbar .btn-danger {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 8px 20px;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 992px) {
+    .header .navbar .nav-con{
+      justify-content: center;
+    }
+    .header .navbar.active .main-logo{
+      margin-top: 10px;
+    }
+    .header .navbar.active .nav-con{
+      justify-content: space-between;
+    }
+    .header .navbar.active .navbar-toggler {
+      display: block !important;
+    }
+    .header .navbar {  
+      flex-direction: row;
+    }
+    .header .navbar .show {
+      transition: all 0.5s ease;
+    }
+    .header .navbar .show ul {
+      padding-top: 30px;
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      top: 74px;
+      left: 0;
+      right: -20%;
+      background: var(--color-white);
+      transition: all 0.5s ease;
+    }
+    .header .navbar .show ul li {
+      margin-bottom: 20px;
+    }
+
+    .header .navbar .nav-link{
+      color: var(--color-black);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .header .navbar {
+      flex-direction: row;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .header {
+      width: 100%;
+      left: 0;
+      top: 0;
+      border-radius: 0;
+    }
+  }
+  
+  .navbar.active {
+    background-color: var(--color-white) !important;
+    box-shadow: 0 0 36px 0 rgba(22, 25, 28, 0.17);
+    top: 0 !important;
+    width: 100% !important;
+    left: 0 !important;
+    border-radius: 0 !important;
+    transition: 0.5s all ease;
+    color: #000;
+  }
+  .navbar.active .main-logo {
+    transition: 0.5s all ease;
+    font-size: 2rem !important;
+    color: #000 !important;
+  }
+  .navbar.active .support-logo-text {
+    font-size: 10px !important;
+  }
+  .navbar.active .nav-item .navbar.active {
+    color: #F35A38 !important;
+  }
+  .navbar.active .nav-link {
+    color: #000 !important;
+  }
+  .navbar.active .nav-item:hover .nav-link {
+    color: #fe964d !important;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar .main-logo{
+        font-size: 2rem !important;
+    }
+    .navbar.active .main-logo{
+        font-size: 1rem !important;
+    }
+    .navbar.active .navbar-toggler {
+      display: block !important;
+    }
+    .navbar.active .navbar-toggler {
+        display: block !important;
+    }
+    .navbar.active .navbar-toggler i{
+        color: var(--color-black);
+    }
+  }

@@ -1,0 +1,76 @@
+.carousel-card{
+    background-color: var(--color-accent);
+    border: 10px solid var(--color-primary);
+    border-radius: 10px;
+    padding: 25px 40px;
+    text-decoration: none;
+    font-family: "Manrope", sans-serif !important;
+}
+
+.carousel-card p{
+    color: var(--color-primary);
+    text-align: center;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    margin: 20px 0px;
+}
+
+.carousel-card h5{
+    margin-bottom: 0;
+    color: var(--color-primary);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.carousel-card .img-wrapper{
+    width: 200px;
+    height: 200px;
+}
+
+.carousel-card .bangle{
+    position: absolute;
+    opacity: 0.1;
+    transform: rotate(-45deg);
+    z-index: 1;
+    width: 200px !important;
+}
+
+.carousel-card .bangle.top{
+    top: -40px;
+    left: -25px;
+}
+
+.carousel-card .bangle.bottom{
+    bottom: -15px;
+    right: 0px;
+}
+
+.carousel-card .custom-btn{
+    cursor: pointer;
+}
+
+.carousel-card .custom-btn{
+    margin-top: 15px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    position: relative;
+    z-index: 2;
+}
+
+.carousel-card .custom-btn:hover{
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+
+.carousel-card .rate{
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.carousel-card .prod-name{
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-top: 15px;
+}

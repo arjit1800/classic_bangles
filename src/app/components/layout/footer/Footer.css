@@ -1,0 +1,31 @@
+footer{
+    background-color: var(--color-accent);
+}
+
+footer .links-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer .footer-links ul{
+    list-style: none;
+}
+
+footer .footer-links li{
+    margin-bottom: 10px;
+}
+
+footer .footer-links li a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+footer .copy{
+    background-color: var(--color-primary);
+    padding: 20px;
+}
+
+footer .copy .copy-text{
+    color: var(--color-white);
+    max-width: 500px;
+}

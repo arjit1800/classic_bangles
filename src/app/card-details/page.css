@@ -1,0 +1,12 @@
+ .card-details .carousel-card{
+    align-items: start !important;
+ }
+
+ .card-details .carousel-card p,h5{
+    text-align: left;
+ }
+
+ .card-details .carousel-card .custom-btn{
+    padding: 6px 25px;
+    border-radius: 10px;
+ }

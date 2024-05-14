@@ -1,0 +1,7 @@
+.carousel-wrapper{
+    background-color: var(--color-accent);
+}
+
+.carousel-wrapper .card-link{
+    text-decoration: none;
+}
